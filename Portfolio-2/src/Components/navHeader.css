@@ -1,6 +1,6 @@
 .header {
     padding: 0 10% 0 10%;
-    height: 7vh;
+    height:5.5em;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -30,6 +30,7 @@
     list-style: none;
     padding: 0;
     font-size: large;
+    cursor: pointer;
 }
 
 .li {
