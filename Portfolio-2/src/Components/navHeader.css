@@ -1,20 +1,18 @@
 .header {
     height:5.5em;
-    background-color: #fff;
+    background-color: #bae6fd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    padding: 0 var(--16px);
 }
 
 .header-links {
     display: flex;
     justify-content: center;
-    align-items: center;
     max-width: 1600px;
-    padding: 20px auto 0;
+    padding: 0.75rem;
 }
 
 .navigation {
@@ -29,12 +27,7 @@
 .li {
     display: flex;
     position: relative;
+    align-items: center;
+    padding: 0 0.75rem;
 }
 
-.li a {
-    display:flex;
-    align-items: center;
-    padding-right: 0.9225rem;
-    border-radius: 0.5rem;
-    color: #025a4e;
-}
